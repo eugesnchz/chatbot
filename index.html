@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatbot Básico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; }
+    .bot { background: #e0e0e0; padding: 8px; margin: 5px; border-radius: 5px; max-width: 80%; }
+    .user { background: #4caf50; color: white; padding: 8px; margin: 5px; border-radius: 5px; max-width: 80%; align-self: flex-end; }
+    #input-container { margin-top: 10px; display: flex; }
+    #user-input { flex-grow: 1; padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+
+  <h1>Chatbot Básico</h1>
+  <div id="chat"></div>
+
+  <div id="input-container">
+    <input id="user-input" type="text" placeholder="Escribe aquí..." autofocus />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
